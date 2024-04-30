@@ -1,0 +1,66 @@
+/* Payment.css */
+
+/* Container styling */
+.seatSelectionContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title styling */
+  .seatSelectionContainer h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+  }
+  
+  /* Selected Seats list styling */
+  .seatSelectionContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Selected Seats list item styling */
+  .seatSelectionContainer li {
+    margin-bottom: 10px;
+  }
+  
+  /* Credit card input styling */
+  .seatSelectionContainer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .seatSelectionContainer input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Error message styling */
+  .seatSelectionContainer p {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styling */
+  .seatSelectionContainer button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seatSelectionContainer button:hover {
+    background-color: #0056b3;
+  }
+  

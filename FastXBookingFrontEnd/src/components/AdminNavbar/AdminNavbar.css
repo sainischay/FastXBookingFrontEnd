@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #343a40; /* Dark background color for the navbar */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from the toggler button */
+}
+
+.navbar-collapse {
+    justify-content: space-between; /* Align items at start and end of navbar */
+}
+
+.navbar-nav {
+    margin-right: 20px; /* Add right margin to navbar-nav */
+}
+
+.logout-btn {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    color: white; /* Text color for the button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+.logout-image {
+    max-width: 30px; /* Adjust maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add right margin to separate from text */
+}

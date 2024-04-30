@@ -1,0 +1,36 @@
+/* Base styles */
+/* .container-fluid.status-container {
+    padding: 20px;
+  } */
+  
+  .nav.nav-tabs.statustabs {
+    background-color: white;
+    
+
+    
+  }
+  
+  .nav.nav-tabs.statustabs .nav-item.tab-item {
+    margin-bottom: -1px;
+  }
+  
+  .nav.nav-tabs.statustabs .nav-link {
+    margin: 10px 0px 10px 0px;
+    color: #3e729a;
+    
+  }
+  
+  .nav.nav-tabs.statustabs .nav-link.active {
+    background-color: #3e729a;
+    color: #fff;
+    border-radius: 10px;
+    
+  }
+  
+  .tab-content {
+    background-color: #fff;
+    
+  }
+  
+  
+  

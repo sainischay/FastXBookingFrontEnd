@@ -1,0 +1,195 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.allBooking{
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: solid black;
+    border-radius: 15%;
+    background-color: #3e729a;
+    contain: content;
+}
+.container-fluid status-container {
+    background-color: #e74622;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-tabs statustabs {
+    border: none;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs .nav-item tab-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+/* Center the tab pane content vertically and horizontally */
+.tab-pane {
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the tab pane takes full height */
+    text-align: center; /* Center text inside the tab pane */
+}
+
+/* Additional styles for h4 and p within tab pane */
+.tab-pane h4 {
+    color: #007bff; /* Blue color for h4 */
+    font-weight: bold; /* Make h4 bold */
+    font-size: 24px; /* Adjust font size for h4 */
+    text-align: center;
+}
+
+.tab-pane p {
+    color: #343a40; /* Dark color for p */
+    font-size: 16px; /* Adjust font size for p */
+    margin-top: 10px; /* Add top margin to separate h4 and p */
+    text-align: center;
+}
+
+.busCardContainer {
+    border: 1px solid #e0e0e0; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+
+        @media only screen and (max-width: 768px) {
+            .busCardContainer {
+                width: 100%;
+
+            }
+        }
+
+
+
+        .bookingBusListingContainer .historyBusCard {
+            -webkit-font-smoothing: antialiased;
+            width: 100%;
+            border-radius: 16px 16px 0 0;
+            padding: 16px 20px;
+        }
+        .makeFlex {
+            display: flex;
+        }
+        .bookingBusListingContainer .historyBusCard .busInfo {
+            width: 18vw;
+            margin-right: 50px;
+        }
+        .makeFlex.column {
+            flex-direction: column;
+        }
+        .appendBottom22 {
+            margin-bottom: 22px;
+        }
+        html[dir='ltr'] .appendRight15 {
+            margin-right: 15px;
+        }
+        .makeFlex.hrtlCenter {
+            align-items: center;
+        }
+        
+        
+        .makeFlex {
+            display: flex;
+        }
+        .makeFlex {
+            display: flex;
+        }
+        .makeFlex {
+            display: flex;
+        }
+        .nowrapStyle, .truncate {
+            white-space: nowrap;
+        }
+        
+        .makeFlex.row {
+            flex-direction: row;
+        }
+        .makeFlex.alignSelfStart {
+            align-self: flex-start;
+        }
+        .blackText {
+            color: #000000;
+        }
+        .latoBlack {
+            font-weight: 900;
+        }
+        .latoBold {
+            font-weight: 700;
+        }
+        
+        .font18 {
+            font-size: calc(var(--font-scale, 1) * 18px);
+            line-height: 18px;
+        }
+        .bookingBusListingContainer .line-border-top {
+            width: 29px;
+            height: 1px;
+            margin: 13px 8px 10px;
+            border-top: 1.4px solid #e7e7e7;
+        }
+        .bookingBusListingContainer .line-border-top {
+            width: 29px;
+            height: 1px;
+            margin: 13px 8px 10px;
+            border-top: 1.4px solid #e7e7e7;
+        }
+        
+        .bookingBusListingContainer .historyBusCard .priceSection {
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* margin-left: auto; */
+        }
+        .makeFlex.end {
+            align-items: flex-end;
+        }
+        .makeFlex.column {
+            flex-direction: column;
+        }
+        .makeFlex.spaceBetween {
+            justify-content: space-between;
+        }
+        
+        
+        .bookingBusListingContainer .detailHeader {
+            display: flex;
+            align-items: center;
+            margin-right: 23px;
+            cursor: pointer;
+            color: #757575;
+        }

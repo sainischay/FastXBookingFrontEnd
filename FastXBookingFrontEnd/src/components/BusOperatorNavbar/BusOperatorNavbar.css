@@ -1,0 +1,50 @@
+/* Navbar background color */
+.navbar.bg-dark {
+  background-color: #00bdd6 !important; /* Blue background color */
+}
+
+/* Navbar links styling */
+.navbar a.navbar-brand,
+.navbar a.nav-link,
+.navbar button.nav-link {
+  color: #ffffff !important; /* White text color */
+  font-weight: bold; /* Bold font weight for all navbar links */
+}
+
+/* Margin for navbar-nav */
+.navbar-nav {
+  margin-right: auto; /* Align navbar-nav to the right */
+}
+
+/* Styling for logout button */
+.logout-btn {
+  color: #06aed0; /* Text color for the button */
+  cursor: pointer;
+}
+
+/* Styling for logout image */
+.logout-image {
+  max-width: 30px;
+  height: auto;
+  margin-right: 5px; /* Add right margin to separate from text */
+}
+
+/* Hover effect for navbar links */
+.navbar a.navbar-brand:hover,
+.navbar a.nav-link:hover,
+.navbar button.nav-link:hover,
+.navbar .logout-btn:hover {
+  color: #fec89a !important; /* Change text color on hover */
+}
+
+/* Hover effect for specific links */
+.navbar .booking-history a.nav-link:hover,
+.navbar .fast a.nav-link:hover,
+.navbar .login a.nav-link:hover {
+  color: #fec89a !important; /* Change text color on hover */
+}
+
+/* Hover effect for the logout button */
+.logout-btn:hover {
+  background-color: transparent; /* Remove background color on hover */
+}

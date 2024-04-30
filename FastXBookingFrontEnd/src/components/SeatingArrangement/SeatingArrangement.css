@@ -1,0 +1,190 @@
+.seatSelectionContainer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-bottom: 20px; /* Bottom margin */
+}
+.seatSelectionContainer h1 {
+  color: #0f559b; /* Heading color */
+  margin-bottom: 20px; /* Bottom margin */
+}
+.seatSelectionContainer label {
+  display: block; /* Make labels block-level */
+  margin-bottom: 10px; /* Bottom margin */
+  color: #495057; /* Label color */
+}
+.seatSelectionContainer select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding */
+  border: 1px solid #ced4da; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* Background color */
+  color: #495057; /* Text color */
+}
+.seatSelectionContainer select:focus {
+  outline: none; /* Remove focus outline */
+  border-color: #80bdff; /* Border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
+}
+.seatSelectionContainer option {
+  padding: 5px; /* Padding */
+}
+/* Styling for option hover and selection */
+.seatSelectionContainer select option:hover {
+  background-color: #f8f9fa; /* Hover background color */
+}
+.seatSelectionContainer select option:checked {
+  background-color: #007bff; /* Selected background color */
+  color: #fff; /* Selected text color */
+}
+.seats {
+  display: flex;
+  flex-wrap: wrap;
+}
+.seat:hover {
+  background-color: #e9ecef; /* Hover background color */
+}
+.seat label {
+  font-size: 14px;
+  color: #495057; /* Seat number color */
+}
+.seat.unavailable {
+  background-color: #f0f0f0; /* Unavailable seat background color */
+  cursor: not-allowed;
+}
+.seat.selected {
+  background-color: #007bff; /* Selected seat background color */
+  color: #fff; /* Selected seat text color */
+}
+.seat.selected:hover {
+  background-color: #0056b3; /* Selected seat hover color */
+}
+/* Reset box-sizing and set base font size */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+/* Container for the seat selection */
+.seatSelectionContainer {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust max-width as needed */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.wallpaper1{
+  background-image: url("../../assets/wallpaper1.jpg");
+  width: 99vw;
+  /* height: 150vh; */
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+ 
+}
+
+/* Style for individual seats */
+.seats { margin: 10px auto;
+  display: grid;
+  max-width: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(1 ,1fr) 50px repeat(2,1fr);
+  text-align: center; 
+  gap: 10px; 
+}
+
+.seat {
+
+  width: 40px; 
+  height: 40px; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  cursor: pointer; 
+  border-radius: 5px;
+}
+
+/* Style for available seats */
+.seat.available {
+  background-color: #32de84; /* Change color for available seats */
+}
+/* Style for unavailable seats */
+.seat.unavailable {
+  background-color: #fd5c63; /* Change color for unavailable seats */
+  cursor: not-allowed; /* Prevent clicking on selected unavailable seats */
+}
+
+.paymentText {
+  margin-bottom: 20px;
+}
+.paymentText p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #343a40; /* Text color */
+}
+.payment {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff; /* Text color */
+  background-color: #007bff; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.payment:hover {
+  background-color: #0056b3; /* Hover background color */
+}
+.payment:disabled {
+  background-color: #6c757d; /* Disabled button background color */
+  cursor: not-allowed;
+}
+.passengerDetailsSection {
+  margin-bottom: 20px;
+}
+.passengerDetailsSection h2 {
+  margin: 20px auto;
+  font-size: 20px;
+  color: #343a40; /* Text color */
+}
+.passengerDetails {
+  margin-bottom: 15px;
+}
+.passengerDetails p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #343a40; /* Text color */
+}
+.passengerDetails input[type="text"],
+.passengerDetails input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  color: #495057; /* Text color */
+  background-color: #f8f9fa; /* Input background color */
+  border: 1px solid #ced4da; /* Input border color */
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.passengerDetails input[type="text"]:focus,
+.passengerDetails input[type="number"]:focus {
+  border-color: #80bdff; /* Focus border color */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus box shadow */
+}
+.passengerDetails input::placeholder {
+  color: #6c757d; /* Placeholder text color */
+}
+.passengerDetails input[type="text"]:disabled,
+.passengerDetails input[type="number"]:disabled {
+  background-color: #e9ecef; /* Disabled input background color */
+  cursor: not-allowed;
+}
+
