@@ -58,7 +58,15 @@ function AddBus() {
     
         getAmenities();
     }, [busId]);
-    
+    const [minDate, setMinDate] = useState('');
+    useEffect(() => {
+        const token = sessionStorage.getItem('authToken');
+        const currentDate = new Date();
+        currentDate.setDate(currentDate.getDate() + 1);
+        const today = new Date();
+        const formattedToday = today.toISOString().split('T')[0];
+        setMinDate(formattedToday);
+    }, []);
 
     const nextStep = async () => {
         if (!busName || !busNumber || !busType || !noOfSeats || !origin || !destination || !startTime || !endTime || !fare || !departureDate || !boardingPoints || !boardTimings || !droppingPoints || !dropTimings || !busRoute) {
@@ -362,6 +370,7 @@ function AddBus() {
                             <label htmlFor="daparturedate" className="form-label">Departure Date</label>
                             <input
                                 type="date"
+                                min={minDate}
                                 className="form-control"
                                 id="daparturedate"
                                 value={departureDate}
